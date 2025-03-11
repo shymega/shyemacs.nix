@@ -1,0 +1,231 @@
+{
+  "nodes": {
+    "claude-code": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1758308913,
+        "narHash": "sha256-5Owr8GxdDAJMVUVAz4JZ4+dIAbvI+FzLavEC7MvddUM=",
+        "owner": "yuya373",
+        "repo": "claude-code-emacs",
+        "rev": "56cccf63709b305bfd74ab72f20bd9d3b12f7d09",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yuya373",
+        "repo": "claude-code-emacs",
+        "type": "github"
+      }
+    },
+    "compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1750343338,
+        "narHash": "sha256-pLb+dt/PPvKZi4sRN9/EPrKvEC1felBk9jJoXKq4fxI=",
+        "owner": "emacs-compat",
+        "repo": "compat",
+        "rev": "cccd41f549fa88031a32deb26253b462021d7e12",
+        "type": "github"
+      },
+      "original": {
+        "owner": "emacs-compat",
+        "repo": "compat",
+        "type": "github"
+      }
+    },
+    "dash": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1715347628,
+        "narHash": "sha256-at42NCcdF9g7a55asnOCSqsvG+XhWuvVsHFT6kU9f9o=",
+        "owner": "magnars",
+        "repo": "dash.el",
+        "rev": "1de9dcb83eacfb162b6d9a118a4770b1281bcd84",
+        "type": "github"
+      },
+      "original": {
+        "owner": "magnars",
+        "repo": "dash.el",
+        "type": "github"
+      }
+    },
+    "doom-modeline": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1751216408,
+        "narHash": "sha256-x5Owrz/N82LCnEcpizugNFObGoZIL+zXn5VZXHXHlgE=",
+        "owner": "seagle0128",
+        "repo": "doom-modeline",
+        "rev": "271c00ee402f14361d50b85adbefcad63b0dd772",
+        "type": "github"
+      },
+      "original": {
+        "owner": "seagle0128",
+        "repo": "doom-modeline",
+        "type": "github"
+      }
+    },
+    "eat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1738802687,
+        "narHash": "sha256-9xG2rMlaMFY77JzUQ3JFrc7XKILZSL8TbP/BkzvBvMk=",
+        "ref": "refs/heads/master",
+        "rev": "c8d54d649872bfe7b2b9f49ae5c2addbf12d3b99",
+        "revCount": 249,
+        "type": "git",
+        "url": "https://codeberg.org/akib/emacs-eat"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://codeberg.org/akib/emacs-eat"
+      }
+    },
+    "f": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727955076,
+        "narHash": "sha256-rDUl2oUlcnSjNbFZn9A/80RVk6neaTScw2kvh6FjmTE=",
+        "owner": "rejeep",
+        "repo": "f.el",
+        "rev": "931b6d0667fe03e7bf1c6c282d6d8d7006143c52",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rejeep",
+        "repo": "f.el",
+        "type": "github"
+      }
+    },
+    "markdown-mode": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1764838333,
+        "narHash": "sha256-0USHhl58Qptpm2cOI+Wjzw6rvTdIZ9wVOCrQe+I1PuI=",
+        "owner": "jrblevin",
+        "repo": "markdown-mode",
+        "rev": "92802fae9ebbc8c2e4c281c06dcdbd74b8bca80e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jrblevin",
+        "repo": "markdown-mode",
+        "type": "github"
+      }
+    },
+    "nerd-icons": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1750520886,
+        "narHash": "sha256-FhbB08rwkBBe7fvuj2saITOI1jdtDiCLAVXI9IkvZLQ=",
+        "owner": "rainstormstudio",
+        "repo": "nerd-icons.el",
+        "rev": "4476b4cabe63f5efafa3c0a8b370db4f6a92e90c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rainstormstudio",
+        "repo": "nerd-icons.el",
+        "type": "github"
+      }
+    },
+    "projectile": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1767965788,
+        "narHash": "sha256-76681m1RozWjmMO1U1wOSqOiBhno82dW3uILwo7b2Sk=",
+        "owner": "bbatsov",
+        "repo": "projectile",
+        "rev": "7cb1f64c1d68dd01acda8b7e3459ed11eb4fb2a8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bbatsov",
+        "repo": "projectile",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "claude-code": "claude-code",
+        "compat": "compat",
+        "dash": "dash",
+        "doom-modeline": "doom-modeline",
+        "eat": "eat",
+        "f": "f",
+        "markdown-mode": "markdown-mode",
+        "nerd-icons": "nerd-icons",
+        "projectile": "projectile",
+        "s": "s",
+        "shrink-path": "shrink-path",
+        "vterm": "vterm",
+        "zenburn-theme": "zenburn-theme"
+      }
+    },
+    "s": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1681482914,
+        "narHash": "sha256-fbF/SyPwEiJICaPBq0xWj2yLWjdNwkaLF2iYvZ2EO1k=",
+        "owner": "magnars",
+        "repo": "s.el",
+        "rev": "dda84d38fffdaf0c9b12837b504b402af910d01d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "magnars",
+        "repo": "s.el",
+        "type": "github"
+      }
+    },
+    "shrink-path": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1549632947,
+        "narHash": "sha256-6nDx14L9Idx2Byg+yBdygMtUiE6obz7ADzL2+4jwy/Y=",
+        "owner": "bennya",
+        "repo": "shrink-path.el",
+        "rev": "c14882c8599aec79a6e8ef2d06454254bb3e1e41",
+        "type": "gitlab"
+      },
+      "original": {
+        "owner": "bennya",
+        "repo": "shrink-path.el",
+        "type": "gitlab"
+      }
+    },
+    "vterm": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1736786730,
+        "narHash": "sha256-ZBAQOUr+IrDlXUKpG2HUzNjVfGdphXqrmiPn90bvAVY=",
+        "owner": "akermu",
+        "repo": "emacs-libvterm",
+        "rev": "056ad74653704bc353d8ec8ab52ac75267b7d373",
+        "type": "github"
+      },
+      "original": {
+        "owner": "akermu",
+        "repo": "emacs-libvterm",
+        "type": "github"
+      }
+    },
+    "zenburn-theme": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1739456290,
+        "narHash": "sha256-6WWdQXR7+5QIisuDKUIf/OB2DucgQIy3c8utmiVL8qs=",
+        "owner": "bbatsov",
+        "repo": "zenburn-emacs",
+        "rev": "5245b0e3297b69c2c1e3478b9038478168a59dfd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bbatsov",
+        "repo": "zenburn-emacs",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
